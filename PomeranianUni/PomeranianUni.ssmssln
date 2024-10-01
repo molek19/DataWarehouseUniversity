@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PomeranianUni", "PomeranianUni\PomeranianUni.ssmssqlproj", "{413645F3-CFE1-4D67-A1BB-8CBCF8CC9D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413645F3-CFE1-4D67-A1BB-8CBCF8CC9D4A}.Default|Default.ActiveCfg = Default
+		{482FC8E9-D5F9-43F3-9D89-6DBD32504CF2}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {069DAF05-BFE4-4D03-896A-7869210F539E}
+	EndGlobalSection
+EndGlobal
