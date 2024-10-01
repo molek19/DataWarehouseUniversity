@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-D4D56MTM_WAREHOUSES.UniversityDW"
+  DTS:DTSID="{86C12060-DD76-42EE-B1D6-2DD20801C245}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=LAPTOP-D4D56MTM\WAREHOUSES;Initial Catalog=UniversityDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ETLUni-{86C12060-DD76-42EE-B1D6-2DD20801C245}LAPTOP-D4D56MTM\WAREHOUSES.UniversityDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

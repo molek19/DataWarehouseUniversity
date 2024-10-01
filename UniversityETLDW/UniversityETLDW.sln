@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "UniversityETLDW", "UniversityETLDW\UniversityETLDW.dwproj", "{FE120CDB-6CE7-48CC-B487-18E4B1FC4976}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETLUni", "ETLUni\ETLUni.dtproj", "{C076506C-6E3A-4713-ABF9-F10F0A5C91FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE120CDB-6CE7-48CC-B487-18E4B1FC4976}.Development|Default.ActiveCfg = Development
+		{FE120CDB-6CE7-48CC-B487-18E4B1FC4976}.Development|Default.Build.0 = Development
+		{FE120CDB-6CE7-48CC-B487-18E4B1FC4976}.Development|Default.Deploy.0 = Development
+		{C076506C-6E3A-4713-ABF9-F10F0A5C91FE}.Development|Default.ActiveCfg = Development
+		{C076506C-6E3A-4713-ABF9-F10F0A5C91FE}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {712E2286-8AC8-4A76-B019-F20EBA6D47A7}
+	EndGlobalSection
+EndGlobal
