@@ -1,0 +1,5 @@
+SELECT  
+[Measures].[Number of teaching facts] on columns,
+[Dim Student].[Student ID].[Student ID].Members on rows 
+ from [University DW] 
+ where  [Dim Date].[Teaching Date Hierarchy].[Year No].&[2019]

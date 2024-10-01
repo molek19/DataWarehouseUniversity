@@ -1,0 +1,26 @@
+--What number of applicants for the top five most popular majors are from Gdañsk? 
+	--Measure: Number of Students		 
+	--Dimension: Major (dimension attribute: Name) 
+	--Dimension: Student (dimension attribute: City)
+
+
+WITH SET Top5Majors AS
+  TOPCOUNT(
+    {[Dim Major].[Name].[Name].Members},
+    5,
+    [Measures].[Number of Students]
+  )
+SELECT
+  {[Measures].[Number of Students]} ON COLUMNS,
+  {[Top5Majors]} ON ROWS
+FROM [University DW]
+WHERE (
+  [Dim Student].[City].[City].&[Gdañsk]
+)
+-- no nikt z gdanska nie jest xd
+
+
+
+
+
+

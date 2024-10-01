@@ -1,0 +1,12 @@
+--Show avg course assessment for course #####(which one you wish)
+
+
+WITH 
+  MEMBER [Measures].[AverageAssessment] AS
+    [Measures].[Sum of course assessment]  / [Measures].[Number of assessments facts]
+SELECT
+  [Measures].[AverageAssessment] ON COLUMNS
+FROM
+  [University DW]
+WHERE
+  [Dim Course].[Course ID].&[C10NEU2020];

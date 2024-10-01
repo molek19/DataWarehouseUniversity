@@ -1,0 +1,16 @@
+--Compare passing rate of first semester of each major depending on students’ math recruitment points. (We assume that each major has advanced math subjects in first semester) 
+	--Measure: Number of completed teachings 
+	--Dimension: Student (dimension attribute: Math_result_range, StudentID) 
+	--Dimension: Major (dimension attribute: Name)
+
+SELECT
+  {[Dim Major].[Name].[Name].Members} ON ROWS,
+  {[Dim Student].[Math Result Range].[Math Result Range].Members * [Measures].[Number of teaching facts]} ON COLUMNS
+FROM [University DW]
+WHERE (
+  [Dim Course].[Semester].&[1],  
+  [Dim Teaching Description].[Is Completed].&[yes]
+)
+
+
+

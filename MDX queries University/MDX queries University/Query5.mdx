@@ -1,0 +1,13 @@
+--Compare passing rates in first semester of studies of students depending on their recruitments points. 
+	--Measure: Number of completed teachings 
+	--Dimension: Student (dimension attribute: Reqruitment_points_range) 
+	--Dimension: Course (dimension attribute: Semester)
+
+SELECT
+  {[Measures].[Number of teaching facts]} ON COLUMNS,
+  {[Dim Student].[Recruitment Points Range].[Recruitment Points Range].Members} ON ROWS
+FROM [University DW]
+WHERE (
+  [Dim Course].[Semester].&[1],  
+  [Dim Teaching Description].[Is Completed].&[yes]
+)

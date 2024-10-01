@@ -1,0 +1,17 @@
+--How many students who rated the classes poorly (1,2) attended the consultations? 
+	--Measure: Number of Students 
+	--Dimension: Assessment_description (dimension attribute: Assessment_Type) 
+	--Dimension: Assessment (dimension attribute: AttendanceRateConsultation) 
+
+WITH MEMBER [Measures].[Number of Students that we re looking for] AS
+    Count(
+        NonEmpty(
+            [Dim Student].[Student ID].[Student ID].Members *
+            {[Dim Assessment Description].[Assessment Type Course].&[very bad], [Dim Assessment Description].[Assessment Type Course].&[not that bad]},
+            [Measures].[Attendence Rate Consultations]
+        )
+    )
+
+SELECT
+  {[Measures].[Number of Students that we re looking for]} ON COLUMNS
+FROM [University DW]

@@ -1,0 +1,25 @@
+--Which teacher was graded the worst in each major by students?     
+	--Measure: Number of good/poor assessments 
+	--Dimension: Assessment (dimension attribute: TeacherID) 
+
+WITH 
+  SET SortedTeachers AS
+    ORDER(
+      [Dim Teacher].[Teacher ID].[Teacher ID].Members,
+      [Measures].[Number of assessments facts],
+      DESC
+    )
+  MEMBER [Measures].[Teacher Rating] AS
+    IIF(
+      Rank([Dim Teacher].[Teacher ID].CurrentMember, SortedTeachers) <= 5,
+      [Measures].[Techer Assessment Value],
+	  NULL
+    )
+SELECT
+  NON EMPTY Tail(SortedTeachers, 5) ON ROWS,
+  {[Measures].[Techer Assessment Value]} ON COLUMNS
+FROM [University DW]
+WHERE (
+  {[Dim Assessment Description].[Assessment Type Teacher].&[very bad]}  
+);
+

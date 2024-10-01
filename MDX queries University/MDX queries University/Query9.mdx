@@ -1,0 +1,14 @@
+--What are the top three best rated courses?  
+	--Measure: Number of good/poor assessments 
+	--Dimension: Course (dimension attribute: Name) 
+
+
+SELECT
+  {[Measures].[Number of assessments facts]} ON COLUMNS,
+  TopCount(
+    [Dim Course].[Name].[Name].Members,
+    3,  -- Top three courses
+    [Measures].[Number of assessments facts]
+  ) ON ROWS
+FROM [University DW]
+WHERE [Dim Assessment Description].[Assessment Type Course].&[extraordinary]

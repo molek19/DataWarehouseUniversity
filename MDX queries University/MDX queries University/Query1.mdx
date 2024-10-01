@@ -1,0 +1,16 @@
+--Compare the passing rate of students of first semester that studies their first choice major to those who studies their second choice. 
+	--Measure: Number of completed teachings 
+	--Dimension: StudyingDescription (dimension attributes: WasFirstChoice) 
+	--Dimension: Date (dimension attributes: Semester)
+
+SELECT 
+  {[Measures].[Number of teaching facts]} ON COLUMNS,
+  [Dim Student].[Student ID].[Student ID].Members ON ROWS
+FROM [University DW]
+WHERE (
+	[Dim Studying Description].[Was First Choice].&[no],
+	[Dim Course].[Semester].&[1],
+	[Dim Teaching Description].[Is Completed].&[yes]
+)
+
+

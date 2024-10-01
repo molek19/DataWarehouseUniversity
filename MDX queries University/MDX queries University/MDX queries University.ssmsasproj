@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlAsProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MDX queries University">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="LAPTOP-D4D56MTM\WAREHOUSES:LAPTOP-D4D56MTM\48668">
+          <Created>2024-05-12T19:15:10.8032819+02:00</Created>
+          <Type>Analysis Server</Type>
+          <Server>LAPTOP-D4D56MTM\WAREHOUSES</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>UniversityETLDW</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="1" Sorted="true">
+      <Items>
+        <FileNode Name="AdditionalHierarchy.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AdditionalHierarchy.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="AdditionalNumerical.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AdditionalNumerical.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="ClearCache.xmla">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ClearCache.xmla</FullPath>
+        </FileNode>
+        <FileNode Name="Optimization1.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Optimization1.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Optimization2.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Optimization2.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Optimization3.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Optimization3.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query1.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query1.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query10.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query10.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query2.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query2.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query3.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query3.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query4.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query4.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query5.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query5.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query6.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query6.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query7.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query7.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query8.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query8.mdx</FullPath>
+        </FileNode>
+        <FileNode Name="Query9.mdx">
+          <AssociatedConnectionMoniker>1396ffcb-10d7-4f8c-aaef-4696d541f554:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Query9.mdx</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlAsProject>

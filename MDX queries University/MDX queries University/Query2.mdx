@@ -1,0 +1,14 @@
+--What are the hardest courses? (passing rate) 
+	--Measure: Number of completed teachings 
+	--Dimension: Course (dimension attribute: Name, Semester)
+
+
+SELECT 
+  {[Measures].[Number of teaching facts]} ON COLUMNS,
+  ORDER(
+    [Dim Course].[Name].[Name].Members,
+    [Measures].[Number of teaching facts],
+    ASC
+  ) ON ROWS
+FROM [University DW]
+WHERE ([Dim Teaching Description].[Is Completed].&[yes])

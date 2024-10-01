@@ -1,0 +1,16 @@
+--Which courses were graded the worst in each major by students?   
+	--Measure: Number of good/poor assessments  
+	--Dimension: Major (dimension attribute: Name)
+
+SELECT
+  {[Measures].[Number of assessments facts]} ON COLUMNS,
+  ORDER
+  (
+	  [Dim Course].[Name].[Name].Members,
+	  [Measures].[Number of assessments facts],
+	  DESC
+  ) ON ROWS
+FROM [University DW]
+WHERE (
+  {[Dim Assessment Description].[Assessment Type Course].&[very bad]}  -- Assuming "not that bad" is represented by 2
+);

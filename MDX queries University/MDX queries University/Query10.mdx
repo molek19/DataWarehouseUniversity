@@ -1,0 +1,20 @@
+--Does the teacher’s assessment influence the consultations attendance rate? 
+	--Measure: Number of good/poor assessments 
+	--Dimension: Assessment (dimension attribute: AttendanceRateConsultation) 
+	--Dimension: Assessment (dimension attribute: TeacherID) 
+
+
+SELECT
+  {[Measures].[Attendence Rate Consultations],[Measures].[Techer Assessment Value]} ON COLUMNS,
+  ORDER(
+	   [Dim Teacher].[Teacher ID].[Teacher ID].Members,
+	   [Measures].[Techer Assessment Value],
+	   DESC
+  ) ON ROWS
+FROM [University DW]
+WHERE (
+  {[Dim Assessment Description].[Assessment Type Teacher].&[extraordinary]}  -- Assuming "poor" assessment type
+);
+
+
+

@@ -1,0 +1,8 @@
+--Show number of passed teachings for each year each momnth of this year and each day of this month
+
+SELECT
+  [Measures].[Number of teaching facts] ON COLUMNS,
+  Descendants([Dim Date].[Teaching Date Hierarchy].Members, [Dim Date].[Teaching Date Hierarchy].[Date]) ON ROWS
+FROM [University DW]
+WHERE [Dim Teaching Description].[Is Completed].&[yes]
+
