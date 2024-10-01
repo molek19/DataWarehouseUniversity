@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DataWarehouseUniversity", "DataWarehouseUniversity\DataWarehouseUniversity.ssmssqlproj", "{61F9FF8A-F59F-4174-925F-BD0104E62B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F9FF8A-F59F-4174-925F-BD0104E62B72}.Default|Default.ActiveCfg = Default
+		{94F332E4-0632-4A41-9FAC-4139DC3B566B}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C44907B7-333E-41C7-9B2E-DB7F515B0709}
+	EndGlobalSection
+EndGlobal

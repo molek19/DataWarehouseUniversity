@@ -1,0 +1,16 @@
+We assume that data to University database is already inserted
+
+0.Drop.sql
+1.CreateTables.sql
+2.ETL_load_teacher.sql
+3.ETL_load_Major.sql
+4.ETL_load_Course.sql
+5.ETL_load_Student.sql
+6.ETL_tempAssessment.sql
+7.ETL_load_AssessmentDesc.sql
+8.ETL_load_Assessment.sql
+9.ETL_load_dates.sql
+10.ETL_load_StudyingDesc.sql
+11.ETL_load_Studying.sql
+12.ETL_load_teaching_description.sql
+13.ETL_load_teachings

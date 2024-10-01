@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataWarehouseUniversity">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="LAPTOP-D4D56MTM\WAREHOUSES:LAPTOP-D4D56MTM\48668">
+          <Created>2024-04-13T19:06:10.2218008+02:00</Created>
+          <Type>SQL</Type>
+          <Server>LAPTOP-D4D56MTM\WAREHOUSES</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CreateTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Drop.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Drop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_Assessment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_Assessment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_AssessmentDesc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_AssessmentDesc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_Course.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_Course.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_dates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_dates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_Major.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_Major.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_Student.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_Student.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_Studying.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_Studying.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_StudyingDesc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_StudyingDesc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_teacher.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_teacher.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_teaching_description.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_teaching_description.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_load_teachings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_load_teachings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_order_of_execution.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_order_of_execution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_SCD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_SCD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ETL_tempAssessment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ETL_tempAssessment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GoSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GoSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-D4D56MTM\WAREHOUSES:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-D4D56MTM\WAREHOUSES</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
