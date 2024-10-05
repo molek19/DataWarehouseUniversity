@@ -1,3 +1,6 @@
+
+![Screenshot 2024-10-05 221708](https://github.com/user-attachments/assets/22e71345-b78b-4232-af54-4de100161a39)
+
 Here are some querying results from my warehouse
 
 ![Screenshot 2024-10-05 211601](https://github.com/user-attachments/assets/6ce7ed23-3c68-4cf1-b50a-aa6488fdd00a)
